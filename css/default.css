@@ -1,0 +1,42 @@
+/*DEFAULT SETTINGS*/
+
+body{
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+	font-family: 'Muli', sans-serif;
+}
+div{
+	overflow-y:hidden;
+	overflow-x:hidden;
+	margin:0;
+}
+
+a,a:hover,a:active,a:visited,a:focus{
+	text-decoration:none;
+	outline:none;
+}
+
+button{
+	outline:none;
+}
+button:hover{
+	cursor:pointer;
+}
+button:active{
+	text-decoration:none;
+	outline:none;
+}
+ul, ol, li{
+	list-style:none;
+}
+img{
+	margin:0;
+	padding:0;
+}

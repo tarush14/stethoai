@@ -1,0 +1,85 @@
+.navbarAbout{
+	background:#252525 !important;
+}
+.navigation-bar-scrollC{
+  background:#151515;
+	padding:10px 4px !important;
+}
+#about{
+	height:auto;
+	width:100%;
+  padding:100px 0px 100px 20px;
+	background:url("../img/bg/bg4.png") fixed;
+}
+.content-section{
+	width:90vw;
+	max-width:800px;
+	padding:10px;
+	height:auto;
+	margin:auto;
+}
+.content-section h1{
+	color:#343435;
+	font-size:47px;
+	letter-spacing:-1px;
+	font-weight:bolder;
+	margin-top:10px;
+	padding:5px;
+}
+.content-section p{
+	color:#343435;
+	font-weight:light;
+	font-size:23px;
+	margin-top:5px;
+	padding-left:10px;
+}
+.content-section img{
+	width:100%;
+	height:auto;
+	margin-top:15px;
+}
+
+
+/***********
+RESPONSIVE
+************\
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#message h1{
+		font-size:60px;
+	}
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	#message h1{
+		font-size:50px;
+	}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  #message h1{
+		font-size:45px;
+	}
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	#about{
+		padding:100px 0px;
+	}
+	.content-section{
+		padding:5px;
+	}
+	.content-section h1{
+		font-size:40px;
+	}
+	.content-section p{
+		font-size:17px;
+	}
+	#message h1{
+		font-size:45px;
+	}
+	#message h1{
+		font-size:30px;
+	}
+
+}

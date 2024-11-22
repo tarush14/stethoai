@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--BOOTSTRAP-->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="script/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<!--ANIMATIONS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q==" crossorigin="anonymous" />
+<link rel="stylesheet" href="animate/animate.min.css">
+
+<!--FONTS-->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
+<!--STYLESHEETS-->
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link rel="stylesheet" type="text/css" href="css/default-elements.css">
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="css/about.css">
+
+<!--SCRIPTS-->
+<script type="text/javascript" src="script/home.js"></script>
+<script type="text/javascript" src="script/navbar.js"></script>
+<script type="text/javascript" src="script/loading.js"></script>
+
+<title>StethoAI</title>
+</head>
+
+<body style="background-color: #c4bcbc;">
+
+  <!--LOADING BANNER-->
+  <div class="loadingBanner" style="display:table;width:100%;height:100%;">
+    <div style="display:table-cell;vertical-align:middle;">
+      <img src="img/loading.gif">
+    </div>
+  </div>
+
+<!--TOP NAVIGATION BAR-->
+<nav id="navigation-bar" class="navbar navbar-default navbar-fixed-top navbar-custom nav-bar-default">
+   <div class="container-fluid">
+    <!--MENU COLLAPSE WHEN SCREEN SIZE IS SMALL-->
+    <div class="navbar-header page-scroll small-nav">
+	    <button onclick="addBackground()" type="button" class="navbar-toggle collapsed btn btn-lg animated small-nav-toggle" data-toggle="collapse" data-target="#navigation-bar-menu">
+	    <i class="fa fa-bars"></i></button>
+		<a class="navbar-brand animated flipInX" href="#">StethoAI</a>
+    </div>
+	<!--THE MENU-->
+	<div class="collapse navbar-collapse animated fadeIn" id="navigation-bar-menu">
+	    <ul class="nav navbar-nav navbar-right">
+		    <li class="hidden">
+                <a href="#"></a>
+            </li>
+            <li class="page-scroll">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="page-scroll">
+                <a href="faq.html">Services</a>
+            </li>
+            <li class="page-scroll">
+                <a href="about.html">About</a>
+            </li>
+        </ul>
+    </div>
+   </div>
+</nav>
+
+<div class="container-fluid" id="about">
+		<div class="content-section">
+	        <h1>About Us.</h1>
+		    <p>Nam sed sagittis odio. Lorem ipsum dolor sit amet, consectetur
+			adipiscing elit. Aliquam tincidunt quis leo vel iaculis. Integer at
+			fringilla lorem.Etiam maximus libero sed dolor bibendum molestie.
+			Quisque et ipsum eget justo viverra tempor. Donec aliquam erat sed nulla ullamcorper.
+		    </p>
+		    <img class="img-responsive" src="img/about/1.jpeg">
+		</div>
+		<div class="content-section">
+	        <h1>Where we are.</h1>
+		    <p>Nulla sed diam posuere, egestas dolor sit amet, mattis massa. Praesent tincidunt non odio eu venenatis.
+			Donec nec vulputate magna. Nulla aliquet varius aliquet. Nulla faucibus vehicula tellus, vitae iaculis nibh
+			fringilla consectetur. Curabitur tristique pellentesque diam sed posuere. Mauris feugiat scelerisque nisi non
+			mollis.
+		    </p>
+		    <img class="img-responsive" src="img/about/2.jpeg">
+		</div>
+		<div class="content-section">
+	        <h1>Work</h1>
+		    <p>Aenean pretium semper sodales. Donec mollis accumsan lorem finibus feugiat. Mauris convallis
+			quam eu lacus ultrices faucibus. Vivamus ultrices, massa quis pulvinar dapibus, dui risus fringilla diam,
+			vitae facilisis risus diam ac lectus.
+			Quisque in hendrerit enim. Etiam maximus, magna efficitur suscipit dignissim, lorem nisl luctus leo,
+			sed ultricies magna ligula nec massa.
+		    <img class="img-responsive" src="img/about/3.jpg">
+		</div>
+</div>
+
+<!--LEAVE A MESSAGE-->
+<div class="container-fluid" id="message" data-scroll-reveal="enter left and move 20px over 1s">
+    <h1>Got some questions?</h1>
+	<form>
+	<input type="name" required="required" placeholder="Name"></input>
+    <input type="email" required="required" placeholder="Email"></input>
+	<textarea type="text" required="required" placeholder="Message"></textarea>
+	<button type="submit">Send</button>
+	</form>
+</div><!--END OF MESSAGE-->
+
+<!--SITE MAP-->
+<div class="container-fluid" id="site-map">
+	<div class="social-media visible-lg visible-md visible-sm col-lg-3 col-md-3 col-sm-6">
+	    <a class="ult-icon facebook-icon" href="#"></a>
+		<a class="ult-icon googleplus-icon" href="#"></a>
+		<a class="ult-icon linkedin-icon" href="#"></a>
+		<a class="ult-icon twitter-icon" href="#"></a>
+	</div>
+	<div class="sitemap-about col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	    <h2>About</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in sapien ut massa mattis iaculis vel
+			sed magna. Quisque scelerisque rhoncus tellus vel cursus. Proin arcu mauris, fermentum in lorem id, elementum
+			pellentesque velit.
+	    </p>
+	</div>
+	<div class="sitemap-address visible-lg visible-md col-lg-3 col-md-3">
+        <p>
+			XYZ Street Name<br>
+			Oslo<br>
+			Norway XXXXXX<br>
+			+47-XXXXXXX +91-XXXXXXXXX<br>
+		</p>
+	</div>
+</div>
+<!--END OF SITE MAP-->
